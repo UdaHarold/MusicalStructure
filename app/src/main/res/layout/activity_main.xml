@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="音乐播放列表"
+        android:text="@string/music_list"
         android:textSize="24sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="32dp"
-        android:text="音乐库"
+        android:text="@string/music_lib"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/music_3" />
 
@@ -66,7 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="24dp"
-        android:text="音乐详情"
+        android:text="@string/music_detail"
         app:layout_constraintBottom_toBottomOf="@+id/transfer_library"
         app:layout_constraintLeft_toRightOf="@+id/transfer_library"
         app:layout_constraintTop_toTopOf="@+id/transfer_library" />

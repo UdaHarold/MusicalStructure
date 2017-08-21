@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MusicDetailActivity extends AppCompatActivity {
 
     private Button mTransList;
+    private Button mTransLib;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,15 @@ public class MusicDetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MusicDetailActivity.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mTransLib = (Button) findViewById(R.id.transfer_lib);
+        mTransLib.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MusicDetailActivity.this, MusicLibraryActivity.class);
                 startActivity(intent);
             }
         });

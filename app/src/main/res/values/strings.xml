@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MusicalStructure</string>
+
+    <string name="music_detail">音乐详情</string>
+
+    <string name="music_list">音乐播放列表</string>
+
+    <string name="music_lib">音乐库</string>
 </resources>
